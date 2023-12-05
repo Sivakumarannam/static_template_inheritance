@@ -1,0 +1,16 @@
+{% extends 'parent.html' %}
+
+
+{% load static %}
+
+
+{% block title %}
+<title>
+    child
+</title>
+{% endblock %}
+
+
+{% block body_block %}
+<img src="{% static 'images/virat.jpg' %}" class="d-block w-100"  alt="">
+{% endblock %}
